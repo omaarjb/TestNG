@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'YOUR_REPO_URL'
+                git 'https://github.com/omaarjb/TestNG.git'
             }
         }
 
